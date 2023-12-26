@@ -1228,7 +1228,7 @@ strong {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+  /* box-sizing: inherit; */
   margin:0;
   padding:0;
 }
@@ -1236,7 +1236,6 @@ strong {
   display:flex;
   align-items: center;
   justify-content: center;
-  /* padding-top:1em; */
 }
 
 
