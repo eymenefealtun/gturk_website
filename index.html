@@ -40,11 +40,11 @@ Bootstrap 5 HTML CSS Template
 </head>
 
 <body>
-        
+
     <main>
-       
+
         <nav class="navbar navbar-expand-lg">
-          
+
 
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -52,71 +52,75 @@ Bootstrap 5 HTML CSS Template
                     <img src="images/coffee-beans.png" width="150px" alt="Barista Cafe Template">
                     <!-- G-Türk -->
                 </a>
-                
-                <div class="mid">
+
+                <!-- <div class="mid">
                     <label class="rocker rocker-small">
                       <input type="checkbox">
                       <span class="switch-left">TUR</span>
                       <span class="switch-right">EN</span>
                     </label>
-                  </div>
+                  </div> -->
+                  <select id="language-select">
+                    <option value="en">English</option>
+                    <option value="tr">Turkish</option>
+                  </select>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  
+
                 </button>
-             
+
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    
-                 
-                   
-                      
+
+
+
+
                     <ul class="navbar-nav ms-lg-auto">
-                     
-                       
-                        
+
+
+
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            <a class="nav-link click-scroll" href="#section_1" id="lblNavHome">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">About</a>
+                            <a class="nav-link click-scroll" href="#section_2"id="lblNavAbout">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">Our goal</a>
+                            <a class="nav-link click-scroll" href="#section_3"id="lblNavOurGoal">Our goal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Our mission</a>
+                            <a class="nav-link click-scroll" href="#section_4"id="lblNavOurMission">Our mission</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5">Our vision</a>
+                            <a class="nav-link click-scroll" href="#section_5"id="lblNavOurVision">Our vision</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_6">Our team</a>
+                            <a class="nav-link click-scroll" href="#section_6"id="lblNavOurTeam">Our team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_7">Contact us</a>
+                            <a class="nav-link click-scroll" href="#section_7"id="lblNavContact">Contact us</a>
                         </li>
                     </ul>
-                 
+
                     <div class="ms-lg-3">
                         <a class="btn custom-btn custom-border-btn" target="_new"
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSfjvRAoXd8aDjct9IUN6V4WZvTFCvpHqlym1gnTAGd9E3nv1g/viewform">
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfjvRAoXd8aDjct9IUN6V4WZvTFCvpHqlym1gnTAGd9E3nv1g/viewform" id="lblNavJoinUs">
                             Join us
-                            <i class="bi-arrow-up-right ms-2"></i>
+                            <i class="bi-arrow-up-right ms-2" id="arrowJoin"></i>
                         </a>
                     </div>
 
                 </div>
 
-             
+
 
             </div>
         </nav>
 
 
-    
+
 
         <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
 
@@ -124,7 +128,7 @@ Bootstrap 5 HTML CSS Template
                 <div class="row align-items-center">
 
                     <div class="col-lg-6 col-12 mx-auto">
-                        <em class="small-text">welcome to G-Türk</em>
+                        <em class="small-text" id="txtWelcome">welcome to G-Türk</em>
 
                         <h1>G-Türk</h1>
 
@@ -172,11 +176,18 @@ Bootstrap 5 HTML CSS Template
 
                         <h2 class="text-white mb-3">G-Türk</h2>
 
-                        <p class="text-white">Welcome to G-Türk, the UAV team at Gebze Technical University. We are a dynamic community of students and enthusiasts passionate about advancing aerospace engineering through unmanned aerial vehicle (UAV) technology.
+                        <p class="text-white">Welcome to G-Türk, the UAV team at Gebze Technical University. We are a
+                            dynamic community of students and enthusiasts passionate about advancing aerospace
+                            engineering through unmanned aerial vehicle (UAV) technology.
 
-                            Our journey is marked by a commitment to innovation, collaboration, and excellence. As a diverse team, we thrive on creative solutions and value different perspectives. At G-Türk, we believe in pushing the boundaries of UAV capabilities and contributing responsibly to societal progress.
-                            
-                            Join us on our exciting journey whether you are a student, researcher, or industry professional. Together, let's explore new frontiers and redefine the possibilities of unmanned aerial vehicles. Experience the skies with G-Türk!
+                            Our journey is marked by a commitment to innovation, collaboration, and excellence. As a
+                            diverse team, we thrive on creative solutions and value different perspectives. At G-Türk,
+                            we believe in pushing the boundaries of UAV capabilities and contributing responsibly to
+                            societal progress.
+
+                            Join us on our exciting journey whether you are a student, researcher, or industry
+                            professional. Together, let's explore new frontiers and redefine the possibilities of
+                            unmanned aerial vehicles. Experience the skies with G-Türk!
                         </p>
 
                         <p class="text-white"><a rel="nofollow" href="https://www.tooplate.com" target="_blank"></a></p>
@@ -195,7 +206,7 @@ Bootstrap 5 HTML CSS Template
 
 
 
-                   
+
 
 
                     <div class="col-lg-6 col-12">
@@ -211,7 +222,7 @@ Bootstrap 5 HTML CSS Template
                                 <h4></h4>
                             </div>
                         </div>
-                    
+
                     </div>
 
 
@@ -219,7 +230,12 @@ Bootstrap 5 HTML CSS Template
 
                         <h2 class="text-white mb-3">Our goal</h2>
 
-                        <p class="text-white">At G-Türk, our primary goal is to push the boundaries of unmanned aerial vehicle (UAV) technology through innovation, research, and collaboration. We strive to be at the forefront of advancements in the field, contributing to the development of cutting-edge solutions that address real-world challenges. Our commitment is to nurture a culture of curiosity and creativity, fostering an environment where team members can thrive, learn, and contribute to the ever-evolving landscape of UAV technology.
+                        <p class="text-white">At G-Türk, our primary goal is to push the boundaries of unmanned aerial
+                            vehicle (UAV) technology through innovation, research, and collaboration. We strive to be at
+                            the forefront of advancements in the field, contributing to the development of cutting-edge
+                            solutions that address real-world challenges. Our commitment is to nurture a culture of
+                            curiosity and creativity, fostering an environment where team members can thrive, learn, and
+                            contribute to the ever-evolving landscape of UAV technology.
                         </p>
 
                         <p class="text-white"><a rel="nofollow" href="https://www.tooplate.com" target="_blank"></a></p>
@@ -261,7 +277,13 @@ Bootstrap 5 HTML CSS Template
 
                         <h2 class="text-white mb-3">Our mission</h2>
 
-                        <p class="text-white">Our mission at G-Türk is to advance the field of unmanned aerial vehicles by conducting high-impact research, developing state-of-the-art technologies, and providing a platform for students to explore their passion for aerospace engineering. We aim to bridge the gap between academia and industry, creating a dynamic space where theoretical knowledge meets practical applications. Through interdisciplinary collaboration and a dedication to excellence, we seek to empower our team members to become leaders in the UAV community and make a positive impact on the world.
+                        <p class="text-white">Our mission at G-Türk is to advance the field of unmanned aerial vehicles
+                            by conducting high-impact research, developing state-of-the-art technologies, and providing
+                            a platform for students to explore their passion for aerospace engineering. We aim to bridge
+                            the gap between academia and industry, creating a dynamic space where theoretical knowledge
+                            meets practical applications. Through interdisciplinary collaboration and a dedication to
+                            excellence, we seek to empower our team members to become leaders in the UAV community and
+                            make a positive impact on the world.
                         </p>
 
                         <p class="text-white"><a rel="nofollow" href="https://www.tooplate.com" target="_blank"></a></p>
@@ -300,7 +322,14 @@ Bootstrap 5 HTML CSS Template
 
                         <h2 class="text-white mb-3">Our vision</h2>
 
-                        <p class="text-white">At G-Türk, we envision a future where UAV technology plays a pivotal role in addressing global challenges, from environmental monitoring to disaster response. Our vision extends beyond technological achievements; we aspire to inspire the next generation of aerospace engineers and pioneers. By fostering a culture of continuous learning, ethical leadership, and technological innovation, we aim to be a beacon in the UAV community, contributing not only to the advancement of technology but also to the development of responsible and forward-thinking individuals who are committed to making a difference in the world.
+                        <p class="text-white">At G-Türk, we envision a future where UAV technology plays a pivotal role
+                            in addressing global challenges, from environmental monitoring to disaster response. Our
+                            vision extends beyond technological achievements; we aspire to inspire the next generation
+                            of aerospace engineers and pioneers. By fostering a culture of continuous learning, ethical
+                            leadership, and technological innovation, we aim to be a beacon in the UAV community,
+                            contributing not only to the advancement of technology but also to the development of
+                            responsible and forward-thinking individuals who are committed to making a difference in the
+                            world.
                         </p>
 
                         <p class="text-white"><a rel="nofollow" href="https://www.tooplate.com" target="_blank"></a></p>
@@ -310,7 +339,7 @@ Bootstrap 5 HTML CSS Template
                     </div>
 
 
-                  
+
 
                 </div>
             </div>
@@ -329,80 +358,80 @@ Bootstrap 5 HTML CSS Template
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <a href="https://www.linkedin.com/in/yasin-yi%C4%9Fit-altin%C3%B6z-514166247/" target="_new">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Yiğit</h4>
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0">Yiğit</h4>
 
-                                    <p class="badge ms-4"><em>Team leader</em></p>
+                                        <p class="badge ms-4"><em>Team leader</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
-                            </div>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/yiğit.png" class="team-block-image img-fluid">
 
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/yiğit.png" class="team-block-image img-fluid">
-
+                                </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <a href="https://www.linkedin.com/in/eda-%C3%B6zmen-74a096225/" target="_new">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Eda</h4>
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0">Eda</h4>
 
-                                    <p class="badge ms-4"><em>Team member</em></p>
+                                        <p class="badge ms-4"><em>Team member</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/eda.png" class="team-block-image img-fluid" alt="">
+                                </div>
                             </div>
-
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/eda.png" class="team-block-image img-fluid" alt="">
-                            </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <a href="https://www.linkedin.com/in/atiye-yumuk-ab0a99226" target="_new">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Atiye</h4>
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0">Atiye</h4>
 
-                                    <p class="badge ms-4"><em>Team Member</em></p>
+                                        <p class="badge ms-4"><em>Team Member</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/atiye.png" class="team-block-image img-fluid" alt="">
+                                </div>
                             </div>
-
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/atiye.png" class="team-block-image img-fluid" alt="">
-                            </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <a href="https://www.linkedin.com/in/yasinba%C4%9Fc%C4%B11704/" target="_new">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Yasin</h4>
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0">Yasin</h4>
 
-                                    <p class="badge ms-4"><em>Team Member</em></p>
+                                        <p class="badge ms-4"><em>Team Member</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/yasin.jpeg" class="team-block-image img-fluid" alt="">
+                                </div>
                             </div>
-
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/yasin.jpeg" class="team-block-image img-fluid" alt="">
-                            </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <div class="team-block-wrap">
@@ -422,23 +451,24 @@ Bootstrap 5 HTML CSS Template
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
-                        <a href="https://www.linkedin.com/in/ahmet-can-ye%C5%9Filta%C5%9F-32b584256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_new">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Ahmet</h4>
+                        <a href="https://www.linkedin.com/in/ahmet-can-ye%C5%9Filta%C5%9F-32b584256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_new">
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0">Ahmet</h4>
 
-                                    <p class="badge ms-4"><em>Team Member</em></p>
+                                        <p class="badge ms-4"><em>Team Member</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/ahmet.png" class="team-block-image img-fluid" alt="">
+                                </div>
                             </div>
-
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/ahmet.png" class="team-block-image img-fluid" alt="">
-                            </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <div class="team-block-wrap">
@@ -459,43 +489,44 @@ Bootstrap 5 HTML CSS Template
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
-                        <a href="https://www.linkedin.com/in/enes-%C3%A7ak%C4%B1c%C4%B1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_new">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Enes</h4>
+                        <a href="https://www.linkedin.com/in/enes-%C3%A7ak%C4%B1c%C4%B1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                            target="_new">
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0">Enes</h4>
 
-                                    <p class="badge ms-4"><em>Team Member</em></p>
+                                        <p class="badge ms-4"><em>Team Member</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/enes.png" class="team-block-image img-fluid" alt="">
+                                </div>
                             </div>
-
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/enes.png" class="team-block-image img-fluid" alt="">
-                            </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <a href="https://www.linkedin.com/in/esmanur-g%C3%BCrkan-3210a1255/" target="_new">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Esma</h4>
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0">Esma</h4>
 
-                                    <p class="badge ms-4"><em>Team Member</em></p>
+                                        <p class="badge ms-4"><em>Team Member</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/esma.png" class="team-block-image img-fluid" alt="">
+                                </div>
                             </div>
-
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/esma.png" class="team-block-image img-fluid" alt="">
-                            </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <div class="team-block-wrap">
@@ -554,22 +585,22 @@ Bootstrap 5 HTML CSS Template
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <a href="https://www.linkedin.com/in/muhammed-co%C5%9Fkun-5949b71b0/" target="_new">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0 font-size">Muhammed</h4>
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0 font-size">Muhammed</h4>
 
-                                    <p class="badge ms-4"><em>Team Member</em></p>
+                                        <p class="badge ms-4"><em>Team Member</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/muhammed.png" class="team-block-image img-fluid" alt="">
+                                </div>
                             </div>
-
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/muhammed.png" class="team-block-image img-fluid" alt="">
-                            </div>
-                        </div>
-                    </a>
+                        </a>
                     </div>
 
 
@@ -772,7 +803,7 @@ Bootstrap 5 HTML CSS Template
     <script src="js/click-scroll.js"></script>
     <script src="js/vegas.min.js"></script>
     <script src="js/custom.js"></script>
-
+    <script src="js/language.js"></script>
 </body>
 
 </html>
