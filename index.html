@@ -60,10 +60,10 @@ Bootstrap 5 HTML CSS Template
                       <span class="switch-right">EN</span>
                     </label>
                   </div> -->
-                  <select id="language-select">
+                <select id="language-select">
                     <option value="en">English</option>
                     <option value="tr">Turkish</option>
-                  </select>
+                </select>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,29 +84,30 @@ Bootstrap 5 HTML CSS Template
                             <a class="nav-link click-scroll" href="#section_1" id="lblNavHome">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2"id="lblNavAbout">About</a>
+                            <a class="nav-link click-scroll" href="#section_2" id="lblNavAbout">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3"id="lblNavOurGoal">Our goal</a>
+                            <a class="nav-link click-scroll" href="#section_3" id="lblNavOurGoal">Our goal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4"id="lblNavOurMission">Our mission</a>
+                            <a class="nav-link click-scroll" href="#section_4" id="lblNavOurMission">Our mission</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5"id="lblNavOurVision">Our vision</a>
+                            <a class="nav-link click-scroll" href="#section_5" id="lblNavOurVision">Our vision</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_6"id="lblNavOurTeam">Our team</a>
+                            <a class="nav-link click-scroll" href="#section_6" id="lblNavOurTeam">Our team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_7"id="lblNavContact">Contact us</a>
+                            <a class="nav-link click-scroll" href="#section_7" id="lblNavContact">Contact us</a>
                         </li>
                     </ul>
 
                     <div class="ms-lg-3">
                         <a class="btn custom-btn custom-border-btn" target="_new"
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSfjvRAoXd8aDjct9IUN6V4WZvTFCvpHqlym1gnTAGd9E3nv1g/viewform" id="lblNavJoinUs">
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfjvRAoXd8aDjct9IUN6V4WZvTFCvpHqlym1gnTAGd9E3nv1g/viewform"
+                            id="lblNavJoinUs">
                             Join us
                             <i class="bi-arrow-up-right ms-2" id="arrowJoin"></i>
                         </a>
@@ -136,12 +137,12 @@ Bootstrap 5 HTML CSS Template
                             <!-- your <em>favourite</em> coffee daily lives. -->
                         </p>
 
-                        <a class="btn custom-btn custom-border-btn click-scroll me-3" href="#section_2">
+                        <a class="btn custom-btn custom-border-btn click-scroll me-3" id="lblOurStorySecTwo" href="#section_2">
                             Our Story
                         </a>
 
                         <a class="btn custom-btn smoothscroll me-2 mb-2" target="_parent"
-                            href="reservation.html"><strong>See our projects</strong></a>
+                            href="reservation.html"><strong id="lblSeeOurProjectsSecTwo">See our projects</strong></a>
                     </div>
 
                 </div>
@@ -434,21 +435,23 @@ Bootstrap 5 HTML CSS Template
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
-                        <div class="team-block-wrap">
-                            <div class="team-block-info d-flex flex-column">
-                                <div class="d-flex mt-auto mb-3">
-                                    <h4 class="text-white mb-0">Furkan</h4>
+                        <a href="https://www.linkedin.com/in/furkan-baran/" target="_new">
+                            <div class="team-block-wrap">
+                                <div class="team-block-info d-flex flex-column">
+                                    <div class="d-flex mt-auto mb-3">
+                                        <h4 class="text-white mb-0">Furkan</h4>
 
-                                    <p class="badge ms-4"><em>Team Member</em></p>
+                                        <p class="badge ms-4"><em>Team Member</em></p>
+                                    </div>
+
+                                    <p class="text-white mb-0"></p>
                                 </div>
 
-                                <p class="text-white mb-0"></p>
+                                <div class="team-block-image-wrap">
+                                    <img src="images/team/user.png" class="team-block-image img-fluid" alt="">
+                                </div>
                             </div>
-
-                            <div class="team-block-image-wrap">
-                                <img src="images/team/user.png" class="team-block-image img-fluid" alt="">
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 mb-4">
                         <a href="https://www.linkedin.com/in/ahmet-can-ye%C5%9Filta%C5%9F-32b584256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -618,7 +621,7 @@ Bootstrap 5 HTML CSS Template
                             </div>
 
                             <div class="team-block-image-wrap">
-                                <img src="images/team/user.png" class="team-block-image img-fluid" alt="">
+                                <img src="images/team/selçuk.png" class="team-block-image img-fluid" alt="">
                             </div>
                         </div>
                     </div>

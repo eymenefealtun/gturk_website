@@ -8,7 +8,6 @@ languageSelect.addEventListener('change', function () {
 
 
 
-var txtWelcome = document.getElementById('txtWelcome');
 
 // nav bar
 var lblNavHome = document.getElementById('lblNavHome');
@@ -19,7 +18,12 @@ var lblNavOurVision = document.getElementById('lblNavOurVision');
 var lblNavOurTeam = document.getElementById('lblNavOurTeam');
 var lblNavContact = document.getElementById('lblNavContact');
 var lblNavJoinUs = document.getElementById('lblNavJoinUs');
-var arrowJoin =  document.getElementById('arrowJoin');
+var arrowJoin = document.getElementById('arrowJoin');
+
+//sec two
+var txtWelcome = document.getElementById('txtWelcome');
+var lblOurStorySecTwo = document.getElementById('lblOurStorySecTwo');
+var lblSeeOurProjectsSecTwo = document.getElementById('lblSeeOurProjectsSecTwo');
 
 
 
@@ -31,11 +35,13 @@ function handleLanguage() {
 
 
 
-
+        //sec two
         txtWelcome.textContent = "G-Türk'e hoşgeldiniz";
+        lblOurStorySecTwo.textContent = "Hikayemiz";
+        lblSeeOurProjectsSecTwo.textContent = "Projelerimiz";
 
         // nav bar
-        lblNavHome.textContent = "Giriş"
+        lblNavHome.textContent = "Ana sayfa"
         lblNavAbout.textContent = "Hakkımızda"
         lblNavOurGoal.textContent = "Hedefimiz"
         lblNavOurMission.textContent = "Misyonumuz"
@@ -44,15 +50,18 @@ function handleLanguage() {
         lblNavContact.textContent = "İletişim"
         lblNavJoinUs.textContent = "Bize katıl"
         var tag = document.createElement("i");
-        tag.className ="bi-arrow-up-right ms-2";
+        tag.className = "bi-arrow-up-right ms-2";
         lblNavJoinUs.appendChild(tag);
 
 
     } else if (languageSelect.value === 'en') {
 
 
-        
+
+        //sec two
         txtWelcome.textContent = 'welcome to G-Türk';
+        lblOurStorySecTwo.textContent = "Our Story";
+        lblSeeOurProjectsSecTwo.textContent = "See our projects";
 
         // nav bar
         lblNavHome.textContent = "Home"
@@ -64,9 +73,9 @@ function handleLanguage() {
         lblNavContact.textContent = "Contact us"
         lblNavJoinUs.textContent = "Join us"
         var tag = document.createElement("i");
-        tag.className ="bi-arrow-up-right ms-2";
+        tag.className = "bi-arrow-up-right ms-2";
         lblNavJoinUs.appendChild(tag);
-      
+
 
     }
     else {
