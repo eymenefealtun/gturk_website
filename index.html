@@ -34,7 +34,7 @@ Tooplate 2137 Barista Cafe
 
 https://www.tooplate.com/view/2137-barista-cafe
 
-Bootstrap 5 HTML CSS Template
+Bootstrap 5 HTML CSS Templatef
 
 -->
 </head>
@@ -139,10 +139,24 @@ Bootstrap 5 HTML CSS Template
 
                         <a class="btn custom-btn custom-border-btn click-scroll me-3" id="lblOurStorySecTwo" href="#section_2">
                             Our Story
+                            
                         </a>
 
                         <a class="btn custom-btn smoothscroll me-2 mb-2" target="_parent"
-                            href="reservation.html"><strong id="lblSeeOurProjectsSecTwo">See our projects</strong></a>
+                           onclick="doClick()" id="navigate_to_project">
+                            <script>
+                                function doClick() {
+                                    var languageSelect = document.getElementById('language-select');
+
+                                   if (languageSelect.value === 'en')
+                                       window.location.href = "reservation.html";
+                                   else
+                                       window.location.href = "reservation-tr.html";
+                                }
+                                </script>
+
+                            <strong id="lblSeeOurProjectsSecTwo">See our projects</strong>
+                        </a>
                     </div>
 
                 </div>

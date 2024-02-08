@@ -27,6 +27,7 @@ var lblSeeOurProjectsSecTwo = document.getElementById('lblSeeOurProjectsSecTwo')
 
 
 
+
 var lbl_we_started_since = document.getElementById("lbl_we_started_since")
 var txt_about = document.getElementById("txt_about")
 
@@ -49,7 +50,7 @@ var lbl_meet_our_team = document.getElementById("lbl_meet_our_team")
 var lbl_we_started_since = document.getElementById("lbl_we_started_since")
 var lbl_we_started_since = document.getElementById("lbl_we_started_since")
 
-
+var chosenLang = "en"
 
 
 
@@ -58,8 +59,7 @@ function handleLanguage() {
 
     if (languageSelect.value === 'tr') {
 
-
-
+        chosenLang = "tr"
         //sec two
         txtWelcome.textContent = "G-Türk'e hoşgeldiniz";
         lblOurStorySecTwo.textContent = "Hikayemiz";
@@ -101,19 +101,14 @@ function handleLanguage() {
         lbl_meet_our_team.textContent = "İşte Takımımız"
 
 
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
+
 
 
 
 
     } else if (languageSelect.value === 'en') {
 
-
+        chosenLang = "en"
 
         //sec two
         txtWelcome.textContent = 'welcome to G-Türk';
@@ -156,12 +151,7 @@ function handleLanguage() {
 
 
         lbl_meet_our_team.textContent = "Meet Our Team"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
+    
 
 
     }
