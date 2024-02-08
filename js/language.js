@@ -41,9 +41,11 @@ var lbl_our_vision = document.getElementById("lbl_our_vision")
 var txt_our_vision = document.getElementById("txt_our_vision")
 
 
-var lbl_we_started_since = document.getElementById("lbl_we_started_since")
-var lbl_we_started_since = document.getElementById("lbl_we_started_since")
-var lbl_we_started_since = document.getElementById("lbl_we_started_since")
+var btn_meet_our_team = document.getElementById("btn_meet_our_team")
+
+
+var lbl_creative_eng_students = document.getElementById("lbl_creative_eng_students")
+var lbl_meet_our_team = document.getElementById("lbl_meet_our_team")
 var lbl_we_started_since = document.getElementById("lbl_we_started_since")
 var lbl_we_started_since = document.getElementById("lbl_we_started_since")
 
@@ -92,9 +94,13 @@ function handleLanguage() {
         txt_our_vision.textContent = "G-Türk'te, İHA teknolojisinin küresel sorunları ele almak için hayati bir rol oynadığı bir gelecek hayal ediyoruz, çevresel izlemeden felaket müdahalesine kadar. Vizyonumuz, teknolojik başarıların ötesine uzanır; gelecek nesil havacılık mühendislerini ve öncülerini ilham vermeyi amaçlıyoruz. Sürekli öğrenme, etik liderlik ve teknolojik yenilik kültürünü geliştirerek, İHA topluluğunda bir kılavuz olmayı hedefliyoruz, sadece teknolojinin ilerlemesine değil, aynı zamanda dünyada fark yaratmaya kararlı, sorumlu ve ileriye dönük bireylerin gelişimine de katkıda bulunuyoruz."
 
 
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
+        btn_meet_our_team.textContent = "Takımımızla tanışın"
+
+
+        lbl_creative_eng_students.textContent = "Yaratıcı Mühendislik Öğrencileri"
+        lbl_meet_our_team.textContent = "İşte Takımımız"
+
+
         asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
         asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
         asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
@@ -143,9 +149,13 @@ function handleLanguage() {
         txt_our_vision.textContent = "At G-Türk, we envision a future where UAV technology plays a pivotal role in addressing global challenges, from environmental monitoring to disaster response. Our vision extends beyond technological achievements; we aspire to inspire the next generation of aerospace engineers and pioneers. By fostering a culture of continuous learning, ethical leadership, and technological innovation, we aim to be a beacon in the UAV community, contributing not only to the advancement of technology but also to the development of responsible and forward-thinking individuals who are committed to making a difference in the world."
 
 
-        asdasdasdasdadas.textContent = "Our vision"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
-        asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
+        btn_meet_our_team.textContent = "Meet our team"
+
+
+        lbl_creative_eng_students.textContent = "Creative Engineering Students"
+
+
+        lbl_meet_our_team.textContent = "Meet Our Team"
         asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
         asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
         asdasdasdasdadas.textContent = "asdasdasdasdasdasdasdasd"
