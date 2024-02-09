@@ -5,6 +5,22 @@ Tooplate 2137 Barista
 https://www.tooplate.com/view/2137-barista-cafe
 
 */
+select {
+  /* Reset Select */
+  appearance:none;
+  outline: 10px red;
+  border: 0;
+  box-shadow: none;
+  /* Personalize */
+  flex: 0;
+  padding: 0 1em;
+  color: #fff;
+  background-color: #1f1f1f  ;
+  background-image: none;
+  cursor: pointer;
+}
+/* Remove IE arrow */
+
 
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
