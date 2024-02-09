@@ -159,14 +159,7 @@ var lbl_we_started_since = document.getElementById("lbl_we_started_since")
 var lbl_we_started_since = document.getElementById("lbl_we_started_since")
 
 function loadFromTr() {
-    if (window.location.hash === "#tr" ||
-        window.location.hash === "#section_1" ||
-        window.location.hash === "#section_2" ||
-        window.location.hash === "#section_3" ||
-        window.location.hash === "#section_4" ||
-        window.location.hash === "#section_5" ||
-        window.location.hash === "#section_6" ||
-        window.location.hash === "#section_7"
+    if (window.location.hash === "#tr"
     ) {
         makeTurkish()
         languageSelect.value = 'tr'
