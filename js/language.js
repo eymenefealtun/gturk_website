@@ -10,11 +10,6 @@ if (languageSelect != null) {
     });
 }
 
-
-
-
-
-
 function makeTurkish() {
     languageSelect.value = 'tr'
     //sec two
@@ -122,7 +117,6 @@ function handleLanguage() {
 }
 
 
-
 // nav bar
 var lblNavHome = document.getElementById('lblNavHome');
 var lblNavAbout = document.getElementById('lblNavAbout');
@@ -163,3 +157,21 @@ var lbl_creative_eng_students = document.getElementById("lbl_creative_eng_studen
 var lbl_meet_our_team = document.getElementById("lbl_meet_our_team")
 var lbl_we_started_since = document.getElementById("lbl_we_started_since")
 var lbl_we_started_since = document.getElementById("lbl_we_started_since")
+
+function loadFromTr() {
+    if (window.location.hash === "#tr" ||
+        window.location.hash === "#section_1" ||
+        window.location.hash === "#section_2" ||
+        window.location.hash === "#section_3" ||
+        window.location.hash === "#section_4" ||
+        window.location.hash === "#section_5" ||
+        window.location.hash === "#section_6" ||
+        window.location.hash === "#section_7"
+    ) {
+        makeTurkish()
+        languageSelect.value = 'tr'
+    }
+}
+
+loadFromTr()
+
